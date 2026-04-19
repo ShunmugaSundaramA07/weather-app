@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center container */
+.container {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Glass Card */
+.card {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Search bar */
+.search-box {
+  display: flex;
+  background: rgba(255,255,255,0.2);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  color: #fff;
+}
+
+.search-box input::placeholder {
+  color: #ddd;
+}
+
+.search-box button {
+  border: none;
+  background: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Weather section */
+.weather-box img {
+  width: 100px;
+  margin: 20px 0;
+}
+
+.weather-box h1 {
+  font-size: 50px;
+}
+
+.weather-box h2 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* Extra details */
+.extra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 10px;
+  width: 45%;
+}

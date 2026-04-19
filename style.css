@@ -13,13 +13,13 @@ body {
   align-items: center;
 }
 
-/* Center container */
+
 .container {
   width: 100%;
   max-width: 350px;
 }
 
-/* Glass Card */
+
 .card {
   backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
@@ -30,7 +30,7 @@ body {
   box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 
-/* Search bar */
+
 .search-box {
   display: flex;
   background: rgba(255,255,255,0.2);
@@ -59,7 +59,7 @@ body {
   cursor: pointer;
 }
 
-/* Weather section */
+
 .weather-box img {
   width: 100px;
   margin: 20px 0;
@@ -74,7 +74,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Extra details */
+
 .extra {
   display: flex;
   justify-content: space-between;

@@ -1,4 +1,4 @@
-const apiKey = "e50b47d06e143d4b94e561166e6a20f9"; // 🔥 your key
+const apiKey = "e50b47d06e143d4b94e561166e6a20f9"; 
 
 async function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
@@ -29,7 +29,7 @@ async function getWeather() {
     document.getElementById("wind").innerText =
       data.wind.speed + " km/h";
 
-    // icon
+
     const weatherMain = data.weather[0].main;
     let icon = "";
 
@@ -51,7 +51,6 @@ async function getWeather() {
   }
 }
 
-// ✅ Enter key fix
 document.getElementById("cityInput").addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
     e.preventDefault();
